@@ -1,0 +1,131 @@
+body{
+    background-color: #ffffff;
+}
+.header{
+    text-align: center;
+    color: #F79489;
+    letter-spacing: 4px;
+    font-weight: bolder;
+    font-size: larger;
+}
+.footer{
+    text-align: end;
+    background-color: #b39191;
+    padding: 10px;
+    font-weight: bold;
+}
+.content{
+    background-color: #FADCD9;
+    height:700px;
+    padding: 40px;
+}
+.left-container{
+    background-color: #FADCD9;
+    float:left;
+    width:40%;
+}
+.right-container{
+    background-color: #FADCD9;
+    float:right;
+    width:40%;
+}
+
+.skill{
+    background-color: #F8AFA6;
+    font-size: xx-large;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    padding:40px;
+}
+.skill img{
+    border-radius: 50%;
+}
+
+.academic{
+    background-color: #F8AFA6;
+    font-size: xx-large;
+    color: antiquewhite;
+    text-align: center;
+    border-radius: 10px;
+    padding: 40px;
+}
+.uni{
+    font-size: x-large;
+    text-align: center;
+    color: #F79489;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F79489;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #F8AFA6;
+  }
+
+#selected{
+    background-color: #FADCD9;
+}
+.dropdown{
+    float:left;
+    overflow:hidden;
+}
+.dropdown .dditem{
+    font-size: 16px;  
+  border: none;
+  outline: none;
+  color: rgb(15, 10, 10);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown .ddlist{
+    display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.ddlist:hover{
+    display:block;
+}
+  
+.project-left{
+    background-color: #FADCD9;
+    float:left;
+    width:60%;
+}
+.project-right{
+    background-color: #FADCD9;
+    float:right;
+    width:30%;
+    padding-top: 20px;
+}
+.project-right img{
+    
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+}
